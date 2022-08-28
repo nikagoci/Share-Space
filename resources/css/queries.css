@@ -1,0 +1,424 @@
+/* Big tablets and 1200px  */
+
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size: 15px;
+    }
+    .row{
+        padding: 0 2%;
+        width: 1009px;
+        margin: 0 auto;
+    }
+    .side2{
+        width: 55%;
+    }
+    .space-lux{
+        width: 973px;
+    }
+    .space-lux p{
+        width: 317px;
+    }
+    .describe{
+        width: 397px;
+    }
+    .full-side{
+        width: 100%;
+    }
+    .img-error-1{
+        bottom: 375px;
+        right: 903px;
+    }
+    .img-error-2{
+        bottom: 135px;
+        right: 903px;
+    }
+    .img-error-3{
+        bottom: 376px;
+        right: 402px;
+    }
+    .img-error-4{
+        bottom: 136px;
+        right: 402px;
+    }
+    .comp-1-img, .comp-2-img, .comp-3-img{
+        width: 30%;
+    }
+    .comp-1-img img, .comp-2-img img, .comp-3-img img{
+        width: 100%;
+    }
+    .comp-img{
+        width: 93%;
+    }
+    .share-space-footer{
+        width: 90%;
+    }
+    .img-icons{
+        width: 100%;
+    }
+    .space-button{
+        width: 90%;
+    }
+    .second-side p{
+        width: 334px;
+    }
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body{
+        font-size: 14px;
+    }
+    .row{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        height: 561px;
+    }
+    .container h1{
+        font-size: 35px;
+        margin-top: 25px;
+        top: -120px;
+        width: 225px;
+    }
+    .container p{
+        font-size: 21px;
+        top: 74px;
+    }
+    .side1 p{
+        width: 229px;
+        font-size: 18px;
+    }
+    .describe {
+        bottom: 106px;
+        right: -22px;
+        width: 461px;
+    }
+    .side2{
+        height: 50%;
+        width: 65%;
+    }
+    .button{
+        top: 200px;
+        padding: 20px 50px;
+    }
+    .about-img{
+        height: 700px;
+        width: 100%;
+        text-align: center;
+    }
+    .about-text{
+        margin-left: 120px;
+        margin-top: 30px;
+        width: 426px;
+        height: 420px;
+    }
+    .about-text h1{
+        font-size: 35px;
+    }
+    .about-text p{
+        font-size: 15px;
+    }
+    .midd{
+        display: inline-block;
+    }
+    .space-button a{
+        padding: 22px 33px;
+        font-size: 21px;
+    }
+    .space-lux{
+        width: 100%;
+    }
+    .full-side{
+        display: inline-block;
+    }
+    .full-side h1{
+        width: 735px;
+        font-size: 41px;
+    }
+    .card-fill-1, .card-fill-2, .card-fill-3, .card-fill-4{
+        padding: 34px 37px 15px 92px;
+        width: 327px;
+        height: 281px;
+
+    }
+    .full-card{
+        width: 100%;
+        padding: 0 6%;
+    }
+    .img-error-1{
+        position: relative;
+        bottom: -71px;
+        right: -46px;
+    }
+    .img-error-2{
+        position: relative;
+        bottom: -71px;
+        right: -46px;
+    }
+    .img-error-3{
+        position: relative;
+        bottom: -71px;
+        right: -40px;
+    }
+    .img-error-4{
+        position: relative;
+        bottom: -68px;
+        right: -40px;
+    }
+    .full-card h2{
+        font-size: 26px;
+    }
+    .space-lux p{
+        width: 161px;
+    }
+    .comp-img{
+        width: 100%;
+    }
+}
+
+/* Small phones to small tablets: from 480px to 767px */
+
+@media only screen and (max-width: 767px) {
+    .side2{
+        display: none;
+    }
+    .container h1{
+        width: 200%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .container p{
+        width: 200%;
+        font-size: 24px;
+        text-align: center;
+    }
+    .button{
+        padding: 20px 43px;
+        top: 175px;
+        right: -106px;
+    }
+    .about-img{
+        height: 350px;
+        width: 100%;
+    }
+    .about-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .about-text{
+        margin: 0;
+        margin-top: 37px;
+        height: 358px
+    }
+    .space-lux{
+        display: inline-block;
+    }
+    .space-lux p{
+        width: 100%;
+        margin-top: 18px;
+    }
+    .lux-left-button{
+        top: 182px;
+        right: 391px;
+    }
+    .lux-right-button{
+        top: 158px;
+        right: 328px;
+    }
+    .img-2 img, .img-3 img{
+        display: none;
+    }
+    .img-1{
+        width: 100%;
+        height: 430px;
+    }
+    .img-1 img{
+        height: 100%;
+    }
+    .space-button{
+        padding: 10px 0;
+    }
+    .full-side h1{
+        width: 100%;
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+    .second-side p{
+        width: 100%;
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .full-card{
+        display: inline-block;
+        padding: 0;
+    }
+    .card-part-1{
+        width: 100%;
+    }
+    .card-fill-1, .card-fill-2, .card-fill-3, .card-fill-4{
+        width: 100%;
+        height: 211px;
+    }
+    .section-feature{
+        padding: 70px 0;
+    }
+    .del-img-1, .del-img-2, .del-img-3{
+        display: none;
+    }
+    .comp-img{
+        display: inline-block;
+    }
+    .comp-1-img, .comp-2-img, .comp-3-img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .comp-1-img img, .comp-2-img img, .comp-3-img img{
+        width: 70%;
+    }
+    .newsletter{
+        height: 291px;
+    }
+    .newsletter h1{
+        width: 100%;
+        font-size: 25px;
+    }
+    .newsletter a{
+        padding: 13px 181px;
+    }
+    input[type="email"]{
+        margin-bottom: 44px;
+    }
+    .share-space-footer{
+        display: inline-block;
+        text-align: center;
+    }
+    .footer-nav{
+        width: 100%;
+        font-size: 21px;
+        margin: 25px 0;
+    }
+    .icon-footer{
+        font-size: 18px;
+    }
+    .menu{
+        display: flex;
+        font-size: 32px;
+        float: right;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: -2px;
+        background-color: #000;
+        width: 100%;
+        height: 55%;
+        z-index: 1;
+    }
+    .nav-bar li{
+        font-size: 25px;
+        z-index: 555;
+        margin-bottom: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .nav-bar li a{
+        color: #fff !important;
+    }
+    .icon-class a{
+        margin-right: 50px !important;
+    }
+    .stick{
+        background-color: black;
+        width: 100%;
+        
+    }
+    .stick nav{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    .close-menu{
+        display: block;
+        z-index: 9999;
+        color: #f86011;
+        font-size: 45px;
+        position: absolute;
+        top: -50px;
+        right: 49px;
+        cursor: pointer;
+        width: 1px;
+        height: 1px;
+    }
+    .nav-bar{display: none;}
+    .stick{display: none;}
+}
+
+/* Small phones: from 0 to 481px */
+
+@media only screen and (max-width: 481px) {
+    .container h1, .container p{
+        width: 100%;
+        text-align: start;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+    .container p{
+        top: 31px;
+        font-size: 20px;
+    }
+    .button{
+        right: 77px;
+        top: 137px;
+    }
+    header{
+        height: 495px;
+    }
+    .about-text h5{
+        width: 78%;
+    }
+    .about-text h1{
+        width: 88%;
+    }
+    .about-text p{
+        width: 88%;
+    }
+    .about-text a{
+        font-size: 20px;
+    }
+    .space-lux p{
+        width: 76%;
+    }
+    .space-lux h3{
+        width: 74%;
+    }
+    .lux-left-button{
+        top: 250px;
+        right: 271px;
+    }
+    .lux-right-button{
+        top: 224px;
+        right: 206px;
+    }
+    .del-img-4{
+        display: none;
+    }
+    .newsletter a{
+        padding: 13px 94px;
+    }
+    input[type="email"]{
+        width: 328px;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .nav-bar{
+        height: 69%;
+    }
+}
